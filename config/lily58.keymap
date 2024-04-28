@@ -50,11 +50,11 @@
 
             display-name = "Base";
             bindings = <
-&none  &kp N1              &kp N2  &kp N3  &kp N4        &kp N5                                 &kp N6           &kp N7        &kp N8     &kp N9   &kp N0                     &none
-&none  &kp Q               &kp W   &kp E   &kp R         &kp T                                  &kp Y            &kp U         &kp I      &kp O    &kp P                      &none
-&none  &ht LEFT_SHIFT A    &kp S   &kp D   &kp F         &kp G                                  &kp H            &kp J         &kp K      &kp L    &ht RIGHT_SHIFT SEMICOLON  &none
-&none  &ht LEFT_CONTROL Z  &kp X   &kp C   &kp V         &kp B        &kp LBKT     &kp RBKT     &kp N            &kp M         &kp COMMA  &kp DOT  &ht RIGHT_CONTROL SLASH    &none
-                                   &none   &lt 1 ESCAPE  &lt 2 SPACE  &lt 3 TAB    &lt 4 ENTER  &lt 5 BACKSPACE  &lt 6 DELETE  &none
+&none  &kp N1          &kp N2          &kp N3              &kp N4            &kp N5                                 &kp N6           &kp N7             &kp N8               &kp N9           &kp N0                   &none
+&none  &kp Q           &kp W           &kp E               &kp R             &kp T                                  &kp Y            &kp U              &kp I                &kp O            &kp P                    &none
+&none  &ht LEFT_WIN A  &ht LEFT_ALT S  &ht LEFT_CONTROL D  &ht LEFT_SHIFT F  &kp G                                  &kp H            &ht RIGHT_SHIFT J  &ht RIGHT_CONTROL K  &ht RIGHT_ALT L  &ht RIGHT_WIN SEMICOLON  &none
+&none  &kp Z           &kp X           &kp C               &kp V             &kp B        &none        &none        &kp N            &kp M              &kp COMMA            &kp DOT          &kp SLASH                &none
+                                       &none               &lt 1 ESCAPE      &lt 2 SPACE  &lt 3 TAB    &lt 4 ENTER  &lt 5 BACKSPACE  &lt 6 DELETE       &none
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
